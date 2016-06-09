@@ -58,7 +58,7 @@ $ bundle exec rake db:create
 $ bundle exec rake db:migrate
 ```
 
-Run our new app. Note: setup port forwarding first.
+Run our new app.
 
 ```
 $ bundle exec rails server -b 0.0.0.0
