@@ -9,6 +9,8 @@
 
 # Attack a Vulnerable App
 
+On this lab we will attack Rails Goat (our vulnerable app).
+
 ---
 
 ## Run Rails Goat
@@ -16,14 +18,12 @@
 1. Log into your AWS instance and run Rails Goat. This should be a continuation from the previous lab.
 
  ```
+$ vagrant ssh
+$ export RAILS_ENV=mysql
 $ bundle exec rails server -b 0.0.0.0 -p 8080
  ```
 
 2. Load `http://PUBLIC_IP_ADDRESS:8080` on your browser.
-
-3. Create an Admin user by clicking `Signup`. Use `admin@metacorp.com` and `admin1234` for the `Email` and `Password` respectively.
-
-4. Create another user using `student@metacorp.com` for the `Email`.
 
 ## Install Burp
 
