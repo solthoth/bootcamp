@@ -1,31 +1,19 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [WEEK 7 OUTLINE](#week-7-outline)
-  - [OBJECTIVES](#objectives)
-  - [AGENDA](#agenda)
-  - [BONUS LABS](#bonus-labs)
-  - [ASSIGNMENTS](#assignments)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# WEEK 7: Rugged Ops
+# WEEK 7: Incident Response and Forensics
+The 90's called, they want their datacenter back. The Cloud is not the datacenter, and so we must reinvent forensics for the Cloud. We do not have direct access to hosts and network, but we do have the tools at our disposal to perform forensics.
 
 ## OBJECTIVES
-- Restacking AWS Accounts
+- Incident Response on the Cloud
 - Cloud Forensics
-- Incident Response on the cloud
 
-## AGENDA
-TIME | TOPIC
----|---
-5 PM - 5:50 PM |
-6 PM - 6:45 PM |
-7 PM - 7:50 PM |
-8 PM - 9 PM |
+# Lesson 1: Gathering Forensic Data
 
-## BONUS LABS
+# Lesson 2: Capturing Forensic Images
 
+# Lesson 3: Performing Basic Forensics
 
-## ASSIGNMENTS
+## Resources
+- [Week 6 Lab 2](../Week-6/labs/LAB-2.md)
+- [Week 6 Lab 3](../Week-6/labs/LAB-3.md)
+- [Forensics Wiki](http://forensicswiki.org/wiki/Main_Page)
+- [AWS CLI Reference](http://docs.aws.amazon.com/cli/latest/reference/)
+- [Forensics Tools](http://www.forensicswiki.org/wiki/Tools)
